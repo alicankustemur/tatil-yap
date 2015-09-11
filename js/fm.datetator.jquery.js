@@ -173,6 +173,8 @@
 				hidePicker();
 			});
 			refreshPicker();
+
+			$input_element.addClass("form-control");
 		};
 
 		
@@ -492,4 +494,7 @@
 		});
 	};
 
+
+
 }(jQuery));
+

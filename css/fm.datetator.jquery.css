@@ -30,7 +30,6 @@
 	box-sizing: border-box;
 	display: inline-block;
 	text-decoration: none;
-	background: #fff url('calendar.png') no-repeat 97% 50%;
 	cursor: pointer;
 }
 
