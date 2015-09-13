@@ -1,0 +1,97 @@
+/* Makes images fully responsive */
+
+.first-img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.first-carousel-inner > .first-item > img,
+.first-carousel-inner > .first-item > a > img {
+  display: block;
+  width: 100%;
+ 
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+
+.first-carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+  height: auto;
+  font-size: 1px;
+}
+
+.first-carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.first-carousel-control.first-left,
+.first-carousel-control.first-right {
+  background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+
+@media screen and (min-width: 1170px) {
+
+    .first-img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .first-carousel-inner > .first-item > img,
+    .first-carousel-inner > .first-item > a > img {
+      height: 350px;
+   
+    }
+
+}
+@media screen and (min-width: 970px) {
+
+    .first-img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .first-carousel-inner > .first-item > img,
+    .first-carousel-inner > .first-item > a > img {
+      height: 350px;
+   
+    }
+
+
+}
+
+@media screen and (min-width: 750px) {
+
+    .first-img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .first-carousel-inner > .first-item > img,
+    .first-carousel-inner > .first-item > a > img {
+      height: 410px;
+   
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    
+  }
+
+}
