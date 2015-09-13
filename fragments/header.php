@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/jquery.auto-complete.css">
 		<link rel="stylesheet" href="css/first-carousel.css">
 		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="css/bootstrap.icon-large.min.css">
 	
 		<!-- [if lt IE 9] 
 			<script src="js/html5shiv.js"></script>
