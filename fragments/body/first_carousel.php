@@ -11,33 +11,33 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner first-carousel-inner">
         <div class="item active first-item">
-          <img src="images/1.jpg" alt="...">
+          <img src="images/mersin.jpg" alt="...">
           <div class=" carousel-caption first-carousel-caption">
-            <h4>Lorem ipsum dolor sit amet</h4>
+             <h3>Mersin</h3>
           </div>
         </div>
         <div class="item first-item">
-          <img src="images/2.jpg" alt="...">
+          <img src="images/istanbul.jpg" alt="...">
           <div class=" carousel-caption first-carousel-caption ">
-            <h3>Lorem ipsum dolor sit amet</h3>
+            <h3>İstanbul</h3>
           </div>
         </div>
         <div class="item first-item">
-          <img src="images/3.jpg" alt="...">
+          <img src="images/izmir.jpg" alt="...">
           <div class="first-carousel-caption">
-             <h3>Lorem ipsum dolor sit amet</h3>
+             <h3>İzmir</h3>
           </div>
         </div>
         <div class="item first-item">
-          <img src="images/1.jpg" alt="...">
+          <img src="images/mersin.jpg" alt="...">
           <div class="first-carousel-caption">
-            <h3>Lorem ipsum dolor sit amet</h3>
+            <h3>Mersin</h3>
           </div>
         </div>
         <div class="item first-item">
-          <img src="images/2.jpg" alt="...">
+          <img src="images/istanbul.jpg" alt="...">
           <div class="first-carousel-caption">
-             <h3>Lorem ipsum dolor sit amet</h3>
+             <h3>İstanbul</h3>
           </div>
         </div>
       </div>
