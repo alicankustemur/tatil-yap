@@ -12,12 +12,18 @@
 		<link rel="stylesheet" href="css/fm.datetator.jquery.css"/>
 		<link rel="stylesheet" href="css/booking_form.css">
 		<link rel="stylesheet" href="css/jquery.auto-complete.css">
-		
-		
+		<link rel="stylesheet" href="css/first-carousel.css">
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 		<!-- [if lt IE 9] 
 			<script src="js/html5shiv.js"></script>
 			<script src="js/respond.js"></script>
 		<![endif] -->
+
+		<style>
+			body{
+				font-family: "Source Sans Pro";
+			}
+		</style>
 
 		<title>Tatil Yap</title>
 
