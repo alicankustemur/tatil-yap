@@ -59,7 +59,7 @@
 			</ul>
 		</li>
 		<li class="col-sm-3">
-			<ul>
+			<ul >
 				<li class="dropdown-header">Much more</li>
                 <li><a href="#">Easy to Customize</a></li>
 				<li><a href="#">Calls to action</a></li>
@@ -69,3 +69,10 @@
 		</li>
 	</ul>				
 </li>
+
+<style>
+	ul li a:hover { 
+		background-color : #d2d2d2; 
+		border-radius: 1px;
+	}
+</style>
