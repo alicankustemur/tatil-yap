@@ -122,11 +122,3 @@
 </form>	
 
 <!-- Booking Form END -->
-
-
-
-<?php
-
-	print_r($_GET);
-
- ?>
