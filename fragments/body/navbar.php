@@ -2,7 +2,7 @@
 <div class="navbar navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand">Tatil</a>
+			<a href="#" class="navbar-brand">Tatil Yap</a>
 			
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_menu">
 				<span class="sr-only">Menu</span>
@@ -15,6 +15,7 @@
 		<div class="collapse navbar-collapse" id="navbar_menu">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" class="active">Oteller</a></li>
+
 				<li><a href="#">Turlar</a></li>
 				<li><a href="#">Uçak Bileti</a></li>
 				<li><a href="#">Kampanyalar</a></li>

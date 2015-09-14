@@ -72,7 +72,7 @@
 
 <style>
 	ul li a:hover { 
-		background-color : #d2d2d2; 
+		background-color : #b2c1d1; 
 		border-radius: 1px;
 	}
 </style>

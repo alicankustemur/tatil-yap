@@ -427,10 +427,10 @@
 					return (day > 9 ? day : '0' + day) + '-' + (month > 9 ? month : '0' + month) + '-' + year;
 					break;
 				case 2:
-					return day + '. ' + plugin.settings.labels.monthNames[month - 1] + ' ' + year;
+					return day + " " + plugin.settings.labels.monthNames[month - 1] + ' ' + year;
 					break;
 				case 3:
-					return day + '. ' + plugin.settings.labels.monthNames[month - 1].substring(0, 3) + '. ' + year;
+					return day + " " + plugin.settings.labels.monthNames[month - 1].substring(0, 3) +  year;
 					break;
 			}
 			return 'Invalid Type';
