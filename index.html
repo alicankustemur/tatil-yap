@@ -23,6 +23,8 @@
       <link rel="stylesheet" href="css/footer.css">
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/flaticon/flaticon.css">
+      <link rel="stylesheet" href="css/panel-tab.css">
+      <link rel="stylesheet" href="css/funky-radio.css">
     <!-- Other .css files End -->
 
     <!-- [if lt IE 9] 
@@ -155,68 +157,224 @@
 <!-- Navbar Menu End --><!-- Booking Form Start -->
 
 <!-- Booking Form Container Start -->
-  <div class="container">
 
+<div class="container">
     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-      <div class="panel panel-primary booking-form-body">
-        <div class="panel-heading">Yüzbinlerce otel,konaklama merkezi ve daha fazlası.. </div>
-          <!-- Panel Body Start -->
-          <div class="panel-body">
-            <!-- Panel Body Form Start-->
-            <form action="" method="GET">
-
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-lg-12 col-md-12">
-                    <label for="">Otel veya Şehir ara</label>
-                    <input type="text" class="form-control" id="otel_and_city" name="otel_and_city">
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <div class="row">
-
-                  <div class="col-lg-6 col-md-6">
-                    <label for="">Check-In</label>
-                    <div class='input-group' >
-                                <input type="text"  id="inputDatetator" name="check_in" class="form-control">
-                                <span class="input-group-addon">
-                                    <span class="glyphicon glyphicon-calendar"></span>
-                                </span>
-                             </div>
-                        </div>
-                    
-                  <div class="col-lg-6 col-md-6">
-                    <label for="">Check-In</label>
-                    <div class='input-group' >
-                                <input type="text"  id="inputDatetator2" name="check_out" class="form-control">
-                                <span class="input-group-addon">
-                                    <span class="glyphicon glyphicon-calendar"></span>
-                                </span>
-                             </div>
-                        </div>
-
+                <div class="panel with-nav-tabs panel-primary booking-form-body">
+                    <div class="panel-heading">
+                            <ul class="nav nav-tabs">
+                                <li id="tab_hotel" class="active"><a href="#tab1primary" data-toggle="tab">Otel</a></li>
+                                <li id="tab_tour"><a href="#tab2primary" data-toggle="tab" >Tur</a></li>
+                                <li id="tab_plane"><a href="#tab3primary" data-toggle="tab">Uçak</a></li>
+                                <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#tab4primary" data-toggle="tab">Primary 4</a></li>
+                                        <li><a href="#tab5primary" data-toggle="tab">Primary 5</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
                     </div>
-              </div>
+                    <div class="panel-body">
+                        <div class="tab-content">
 
-              <div class="form-group">
-                <div class="row">
-                  <div class="col-lg-3 col-lg-offset-9 col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8">
-                    <button type="submit" id="submit" class="btn btn-primary form-control">Ara</button>
-                  </div>
+                        <!-- OTEL Start -->
+
+                            <div class="tab-pane fade in active" id="tab1primary">
+
+                            <form action="" method="GET">
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <label for="">Otel veya Şehir girin</label>
+                                            <input type="text" class="form-control" id="otel_and_city" name="otel_and_city">
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+                                <div class="form-group">
+                                    <div class="row">
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <label for="">Giriş Tarihi</label>
+                                            <div class='input-group' >
+                                                <input type="text"  id="inputDatetator" name="check_in" class="form-control">
+                                              <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                             </div>
+                                        </div>
+                                    
+                                        <div class="col-lg-6 col-md-6">
+                                            <label for="">Çıkış Tarihi</label>
+                                            <div class='input-group' >
+                                                <input type="text"  id="inputDatetator2" name="check_out" class="form-control">
+                                              <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                             </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <button type="submit" id="submit" class="btn btn-primary form-control">Ara</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        <!-- OTEL End -->
+                            </form>  
+                             <!-- Panel Body Form End -->    
+                            </div>
+                            <div class="tab-pane fade" id="tab2primary">
+                              
+                              <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <label for="">Tur veya Şehir girin</label>
+                                            <input type="text" class="form-control" id="tour_and_city" name="tour_and_city">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <label for="">Dönem seçiniz</label>
+                                           <select name="" id="" class="form-control">
+                                           <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option>                                           </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                      <label for="">Yetişkin</label>
+                                        <select class="form-control">
+                              <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option>                          </select>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6">
+                                      <label for="">Çocuk</label>
+                                        <select class="form-control">
+                              <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option>                          </select>
+                                    </div>
+
+                                    
+
+                                  </div>
+                                </div>
+
+                               <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <button type="submit" id="submit" class="btn btn-primary form-control">Ara</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="tab3primary">
+                              
+                               <div class="form-group">
+                                    <div class="row">
+                    <div class="col-lg-6 col-md-6 funkyradio">
+                          <div class="funkyradio-primary">
+                              <input type="radio" name="radio" id="radio2"/>
+                              <label for="radio2" style="color:gray;">Gidiş-Dönüş</label>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-6 col-md-6 funkyradio">
+                          <div class="funkyradio-primary">
+                              <input type="radio" name="radio" id="radio3"/>
+                              <label for="radio3">Tek Yön</label>
+                          </div>
+                      </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                          <label for="">Nereden</label>
+                                            <input type="text" class="form-control" id="from_where" name="from_where">
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                          <label for="">Nereye</label>
+                                            <input type="text" class="form-control" id="where" name="where">
+                      </div>
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <label for="">Giriş Tarihi</label>
+                                            <div class='input-group' >
+                                                <input type="text"  id="inputDatetator3" name="check_in" class="form-control">
+                                              <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                             </div>
+                                        </div>
+                                    
+                                        <div class="col-lg-6 col-md-6">
+                                            <label for="">Çıkış Tarihi</label>
+                                            <div class='input-group' >
+                                                <input type="text"  id="inputDatetator4" name="check_out" class="form-control">
+                                              <span class="input-group-addon">
+                                                    <span class="glyphicon glyphicon-calendar"></span>
+                                                </span>
+                                             </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                  <div class="row">
+                                    <div class="col-lg-4 col-md-4">
+                                      <label for="">Yetişkin</label>
+                                        <select class="form-control">
+                              <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option><option value=6>6</option>                          </select>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                      <label for="">Çocuk</label>
+                                        <select class="form-control">
+                              <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option>                          </select>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                      <label for="">Bebek</label>
+                                        <select class="form-control">
+                              <option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option>                          </select>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <button type="submit" id="submit" class="btn btn-primary form-control">Ara</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="tab4primary">Primary 4</div>
+                            <div class="tab-pane fade" id="tab5primary">Primary 5</div>
+                        </div>
+                    </div>
+                    <!-- Panel Body End -->
                 </div>
-              </div>
-
-            </form> 
-            <!-- Panel Body Form End -->  
-          </div>
-          <!-- Panel Body End -->
-        </div>
-      </div>
-      
-
-<!-- Booking Form End -->
+            </div>
 
 <!-- First Carousel Start -->
     <div id="first-carousel" class="carousel slide col-lg-7 col-md-7 col-sm-7 col-xs-12" data-ride="carousel">
@@ -273,8 +431,12 @@
       </a>
     </div>
 <!-- First Carousel End -->
+  
+  
+
 </div>
-<!-- Booking Form Container End --><div class="container">
+<!-- Booking Form Container End -->
+</div><div class="container">
     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 priceList">
             <div class="panel panel-default">
                 <div class="panel-heading"> <span class="icon-large icon-snorkel-diving" style="height:25px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yerini ayır , parayı sonra ödersin.</div>
