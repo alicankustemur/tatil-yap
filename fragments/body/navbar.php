@@ -1,8 +1,8 @@
-<!-- Navbar Menu -->
+<!-- Navbar Menu Start -->
 <div class="navbar navbar-inverse">
 	<div class="container">
 		<div class="navbar-header">
-			<a href="#" class="navbar-brand">Tatil Yap</a>
+			<a href="#" class="navbar-brand">Tatil <span id="navbar">Yap</span></a>
 			
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_menu">
 				<span class="sr-only">Menu</span>
@@ -40,3 +40,4 @@
 		
 	</div>
 </div>
+<!-- Navbar Menu End -->

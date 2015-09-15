@@ -1,3 +1,5 @@
+
+<!-- First Carousel Start -->
     <div id="first-carousel" class="carousel slide col-lg-7 col-md-7 col-sm-7 col-xs-12" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators first-carousel-indicators">
@@ -51,4 +53,6 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
     </div>
-
+<!-- First Carousel End -->
+</div>
+<!-- Booking Form Container End -->
