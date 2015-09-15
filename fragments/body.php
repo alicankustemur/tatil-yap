@@ -8,7 +8,11 @@
 
 	require_once("body/price_list.php");
 
+
+
 	require_once("body/sea_pic.php");
+
+
 
 ?>
 

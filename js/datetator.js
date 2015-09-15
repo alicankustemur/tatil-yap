@@ -204,6 +204,7 @@
 			$nav_prev_month_element.addClass(plugin.settings.prefix + 'previous_month');
 			$nav_prev_month_element.html(plugin.settings.labels.previousMonth.replace('{month}', plugin.settings.labels.monthNames[new Date(new Date(currentDate).setMonth(currentDate.getMonth() - 1)).getMonth()].substring(0, 3)));
 			$nav_prev_month_element.attr('title', plugin.settings.labels.previousMonthTooltip);
+			$nav_prev_month_element.css("color","gray");
 			$nav_prev_month_element.click(function (e) {
 				e.preventDefault();
 				e.stopPropagation();
@@ -235,6 +236,7 @@
 			$nav_prev_year_element.addClass(plugin.settings.prefix + 'previous_year');
 			$nav_prev_year_element.html(plugin.settings.labels.previousYear.replace('{year}', new Date(new Date(currentDate).setYear(currentDate.getFullYear() - 1)).getFullYear().toString()));
 			$nav_prev_year_element.attr('title', plugin.settings.labels.previousYearTooltip);
+			$nav_prev_year_element.css("color","gray");
 			$nav_prev_year_element.click(function (e) {
 				e.preventDefault();
 				e.stopPropagation();
@@ -301,10 +303,12 @@
 					// td element (day)
 					$td_element = $(document.createElement('td'));
 					var date = new Date(mondayFirstWeek.getFullYear(), mondayFirstWeek.getMonth(), mondayFirstWeek.getDate() + (x + (row * 7)));
+					// alert();
 					$td_element.html(date.getDate());
 					$td_element.data('date', date);
 					$td_element.click(function () {
 						selectDate($(this).data('date'));
+						//alert(selectDate)
 					});
 					$td_element.addClass(plugin.settings.prefix + 'day');
 					if (formatDate(date, 0) == $element.val()) {
@@ -347,6 +351,7 @@
 				e.stopPropagation();
 				today();
 			});
+
 			$operations_element.append($opr_today_element);
 
 			if (document.activeElement === $input_element[0]) {
@@ -362,21 +367,29 @@
 			$element.val(formatDate(new Date(), 0));
 			$element.trigger('change');
 			hidePicker();
+			return($element.val());
 		};
+
+		/*
+		Disable Previous Month and Year
 
 		var previousMonth = function () {
 			currentDate.setMonth(currentDate.getMonth() - 1);
 			refreshPicker();
 		};
+	
+		var previousYear = function () {
+			currentDate.setYear(currentDate.getFullYear() - 1);
+			refreshPicker();
+		};
+
+		*/
 		var nextMonth = function () {
 			currentDate.setMonth(currentDate.getMonth() + 1);
 			refreshPicker();
 		};
 		
-		var previousYear = function () {
-			currentDate.setYear(currentDate.getFullYear() - 1);
-			refreshPicker();
-		};
+		
 		var nextYear = function () {
 			currentDate.setYear(currentDate.getFullYear() + 1);
 			refreshPicker();
@@ -386,6 +399,12 @@
 			$element.val(formatDate(date, 0));
 			$element.trigger('change');
 			hidePicker();
+
+			/* todayfunc
+			var todayString = today();
+			alert(todayString);
+			*/
+
 		};
 
 		
@@ -417,6 +436,7 @@
 				return '';
 			}
 			var day = date.getDate();
+
 			var month = date.getMonth() + 1;
 			var year = date.getFullYear();
 			switch (type) {

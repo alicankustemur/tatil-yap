@@ -23,6 +23,8 @@
 			<link rel="stylesheet" href="css/footer.css">
 			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/flaticon/flaticon.css">
+			<link rel="stylesheet" href="css/panel-tab.css">
+			<link rel="stylesheet" href="css/funky-radio.css">
 		<!-- Other .css files End -->
 
 		<!-- [if lt IE 9] 
