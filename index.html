@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- Favicon & Bootstrap & Glyphicons & Custom.css Link Start-->
+      <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+      <link rel="stylesheet" href="css/cosmo/bootstrap.css" />
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/custom.css" />
+    <!-- Bootstrap & Glyphicons & Custom.css Link End -->
 
-    <link rel="stylesheet" href="css/cosmo/bootstrap.css" />
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/mega-dropdown-menu.css">
-    <link rel="stylesheet" href="css/fm.datetator.jquery.css"/>
-    <link rel="stylesheet" href="css/booking_form.css">
-    <link rel="stylesheet" href="css/jquery.auto-complete.css">
-    
-    <link rel="stylesheet" href="css/first-carousel.css">
-    
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/bootstrap.icon-large.min.css">
-    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/flaticon/flaticon.css">
+    <!-- Other .css files Start -->
+      <link rel="stylesheet" href="css/mega-dropdown-menu.css">
+      <link rel="stylesheet" href="css/datetator.css"/>
+      <link rel="stylesheet" href="css/booking_form.css">
+      <link rel="stylesheet" href="css/pixabay-auto-complete.css">
+      <link rel="stylesheet" href="css/first-carousel.css">
+      
+      <link rel="stylesheet" href="css/bootstrap.icon-large.min.css">
+      <link rel="stylesheet" href="css/footer.css">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/flaticon/flaticon.css">
+    <!-- Other .css files End -->
+
     <!-- [if lt IE 9] 
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.js"></script>
     <![endif] -->
+
     <title>Tatil Yap</title>
 
   </head>
 <body>
-<!-- Navbar Menu -->
+<!-- Navbar Menu Start -->
 <div class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
-      <a href="#" class="navbar-brand">Tatil Yap</a>
+      <a href="#" class="navbar-brand">Tatil <span id="navbar">Yap</span></a>
       
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar_menu">
         <span class="sr-only">Menu</span>
@@ -146,69 +151,73 @@
     </div>
     
   </div>
-</div><!-- Booking Form Start -->
-<form action="" method="GET">
-  
+</div>
+<!-- Navbar Menu End --><!-- Booking Form Start -->
+
   <div class="container">
     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
       <div class="panel panel-primary booking-form-body">
         <div class="panel-heading">Yüzbinlerce otel,konaklama merkezi ve daha fazlası.. </div>
+          <!-- Panel Body Start -->
           <div class="panel-body">
-            
+            <!-- Panel Body Form Start-->
+            <form action="" method="GET">
 
-            <div class="form-group">
-              <div class="row">
-                <div class="col-lg-12 col-md-12">
-                  <label for="">Otel veya Şehir ara</label>
-                  <input type="text" class="form-control" id="otel_and_city" name="otel_and_city">
-                </div>
-              </div>
-            </div>
-
-            
-
-            <div class="form-group">
-              <div class="row">
-
-                <div class="col-lg-6 col-md-6">
-                  <label for="">Check-In</label>
-                  <div class='input-group' >
-                              <input type="text"  id="inputDatetator" name="check_in" class="form-control">
-                              <span class="input-group-addon">
-                                  <span class="glyphicon glyphicon-calendar"></span>
-                              </span>
-                           </div>
-                      </div>
-                  
-                <div class="col-lg-6 col-md-6">
-                  <label for="">Check-In</label>
-                  <div class='input-group' >
-                              <input type="text"  id="inputDatetator2" name="check_out" class="form-control">
-                              <span class="input-group-addon">
-                                  <span class="glyphicon glyphicon-calendar"></span>
-                              </span>
-                           </div>
-                      </div>
-
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <label for="">Otel veya Şehir ara</label>
+                    <input type="text" class="form-control" id="otel_and_city" name="otel_and_city">
                   </div>
-            </div>
-
-
-            <div class="form-group">
-              <div class="row">
-                <div class="col-lg-3 col-lg-offset-9 col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8">
-                  <button type="submit" id="submit" class="btn btn-primary form-control">Ara</button>
                 </div>
               </div>
-            </div>
+
+              <div class="form-group">
+                <div class="row">
+
+                  <div class="col-lg-6 col-md-6">
+                    <label for="">Check-In</label>
+                    <div class='input-group' >
+                                <input type="text"  id="inputDatetator" name="check_in" class="form-control">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                             </div>
+                        </div>
                     
+                  <div class="col-lg-6 col-md-6">
+                    <label for="">Check-In</label>
+                    <div class='input-group' >
+                                <input type="text"  id="inputDatetator2" name="check_out" class="form-control">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                             </div>
+                        </div>
+
+                    </div>
+              </div>
+
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-lg-3 col-lg-offset-9 col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8">
+                    <button type="submit" id="submit" class="btn btn-primary form-control">Ara</button>
+                  </div>
+                </div>
+              </div>
+
+            </form> 
+            <!-- Panel Body Form End -->  
           </div>
-          <!-- PANEL BODY END -->
+          <!-- Panel Body End -->
         </div>
       </div>
+      
 
+<!-- Booking Form End -->
 
-          <div id="first-carousel" class="carousel slide col-lg-7 col-md-7 col-sm-7 col-xs-12" data-ride="carousel">
+<!-- First Carousel Start -->
+    <div id="first-carousel" class="carousel slide col-lg-7 col-md-7 col-sm-7 col-xs-12" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators first-carousel-indicators">
         <li data-target="#first-carousel" data-slide-to="0" class="active"></li>
@@ -261,14 +270,9 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
     </div>
-
-    </div>  
-            
-        
-</form> 
-
-<!-- Booking Form END -->
-<div class="container">
+<!-- First Carousel End -->
+</div>
+<!-- Booking Form Container End --><div class="container">
     <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 priceList">
             <div class="panel panel-default">
                 <div class="panel-heading"> <span class="icon-large icon-snorkel-diving" style="height:25px;"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yerini ayır , parayı sonra ödersin.</div>
@@ -310,7 +314,16 @@
                 </div>
             </div>
     </div>
-</div><footer class="footer-distributed">
+</div><div class="container">
+  <div class="row">
+    <div id="sea_pic" class="col-lg-12 col-lg-offset-7 col-md-12 col-md-offset-5">
+      <img src="images/sea.png" class="img-responsive" alt="">
+    </div>
+  </div>
+</div>
+
+ <a class="to-top">Yukarı &uarr;</a>
+<footer class="footer-distributed">
 
       <div class="footer-left">
 
@@ -371,21 +384,26 @@
 
       </div>
 
-    </footer><div id="sea_pic" class="col-lg-6 col-md-5 col-sm-8 col-xs-12">
-  <img src="images/sea.png" class="img-responsive" >
-</div>
+</footer>
 
-  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.js"></script>
+  <!-- JQuery & Bootstrap & jquery.js Start -->
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+
+  <!-- JQuery & Bootstrap & jquery.js End -->
+
+  <!-- Other .js files Start -->
+
+    <script src="js/mega-dropdown-menu.js"></script>
+    <script src="js/datetator.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/pixabay-auto-complete.min.js"></script>
+    <script src="js/autocomplete.js"></script>
+    <script src="js/back-to-top.min.js"></script>
+
+  <!-- Other .js files End -->
   
-  <script src="js/mega-dropdown-menu.js"></script>
-  <script src="js/fm.datetator.jquery.js"></script>
-  <script src="js/calendar.js"></script>
-  <script src="js/jquery.auto-complete.js"></script>
-  <script src="js/autocomplete.js"></script>
-  <!--
-<script src="js/login.js"></script>
--->
 </body>
 </html>
