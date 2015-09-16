@@ -22,8 +22,8 @@
   padding-left: 15px; 
 }
 .mega-dropdown-menu > li ul > li > a:hover{
-  background-color : #428BCA;
-  color: #fff; 
+  background-color : #E5E5E5;
+  color: #333; 
 }
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
