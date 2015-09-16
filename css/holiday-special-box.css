@@ -1,0 +1,112 @@
+
+#holiday-special{
+	background-color:#d3d6db;
+	height: 450px;
+	padding: 35px 35px;
+}
+
+.holiday-special-box{
+	-webkit-box-shadow: 13px 7px 10px -3px rgba(161,161,161,1);
+    -moz-box-shadow: 13px 7px 10px -3px rgba(161,161,161,1);
+    box-shadow: 13px 7px 10px -3px rgba(161,161,161,1);
+	background-color: white;
+	margin:10px;
+
+}
+.holiday-special-box-content{
+	padding: 25px 25px;
+	font-size: 15px;
+	height: 250px;
+}
+
+.holiday-special-nested-icon-1 ,
+.holiday-special-nested-icon-2 ,
+.holiday-special-nested-icon-3 ,
+.holiday-special-nested-icon-4 {
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	padding:10px;
+	float: left;
+}
+
+.holiday-special-nested-icon-1{
+	background-color: #ccb16d;
+}
+
+.holiday-special-nested-icon-2{
+	background-color: #8db0c2;
+	
+}
+.holiday-special-nested-icon-3{
+	background-color: #9bad6a;
+	
+}
+.holiday-special-nested-icon-4{
+	background-color: #b55249;
+	
+}
+
+.holiday-special-nested-box-1 ,
+.holiday-special-nested-box-2 ,
+.holiday-special-nested-box-3 ,
+.holiday-special-nested-box-4 {
+	text-align: center;
+	color:#333;
+	font-size: 21px;
+	height: 60px;
+}
+
+.holiday-special-nested-box-1{
+	background-color: #FFDE89;
+}
+.holiday-special-nested-box-2{
+	background-color: #B1DDF3;
+}
+.holiday-special-nested-box-3{
+	background-color: #C2D985;
+}
+.holiday-special-nested-box-4{
+	background-color: #E3675C;
+}
+
+.holiday-special-nested-icon-1:hover ,
+.holiday-special-nested-icon-2:hover ,
+.holiday-special-nested-icon-3:hover ,
+.holiday-special-nested-icon-4:hover {
+	cursor: default;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	#holiday-special{
+		height: 410px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.holiday-special-box{
+		height: 390px;
+	}
+	#holiday-special{
+		height: 480px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#holiday-special{
+		height: 720px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}

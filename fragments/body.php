@@ -10,10 +10,10 @@
 
 
 
+	require_once("body/holiday_special.php");
+
 	require_once("body/sea_pic.php");
 
 
 
 ?>
-
-

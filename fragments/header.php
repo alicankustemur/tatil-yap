@@ -25,6 +25,7 @@
 			<link rel="stylesheet" href="css/flaticon/flaticon.css">
 			<link rel="stylesheet" href="css/panel-tab.css">
 			<link rel="stylesheet" href="css/funky-radio.css">
+			<link rel="stylesheet" href="css/holiday-special-box.css">
 		<!-- Other .css files End -->
 
 		<!-- [if lt IE 9] 

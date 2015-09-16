@@ -13,11 +13,6 @@ body{
         overflow-x:hidden;
 }
 
-#sea_pic{
-  position: absolute;
-  z-index: -1;
-  opacity: 0.7;
-}
 
 
 
@@ -28,7 +23,8 @@ body{
 
     }
     #sea_pic{
-      bottom: -390px;
+      bottom: -100px;
+      left: 100px;
     }
     
 }
@@ -38,7 +34,7 @@ body{
     	bottom: 70px;
     }
     #sea_pic{
-      bottom: -390px;
+      bottom: -100px;
       left: 180px;
     }
 }
@@ -47,10 +43,7 @@ body{
     .priceList{
     	bottom: 10px;
     }
-    #sea_pic{
-      bottom: -470px;
-      left: 430px;
-    }
+    
 }
 @media screen and (max-width: 770px){
 	.priceList{
@@ -72,4 +65,32 @@ body{
   background-color: #33383B;
   color: #fff;
   text-decoration: none;
+}
+
+.priceListRow{
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.priceListRowTd{
+  background-color: #036;
+  color:white;
+}
+
+.priceListRow:hover {
+  cursor:pointer;
+}
+
+.priceListRow:hover .priceListRowTd{
+    background-color: #004080;
+}
+
+.priceListRow:hover td{
+  background-color: #A8AEB8;
+}
+
+#sea_pic{
+  position: relative;
+  z-index: -1;
+  opacity: 0.7;
 }

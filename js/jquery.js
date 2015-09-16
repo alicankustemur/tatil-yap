@@ -18,5 +18,17 @@ $(document).ready(function(){
 		});
 
 	}
+
+	$(".priceListRow").click(function(){
+		window.location = "http://alicankustemur.github.io/tatil-yap";
+	});
+
+
+	if($(window).width() < 768){
+		$("div").remove("#holiday-special");
+	}else{
+		$("#holiday-special").css("display","block");
+	}
+
             
 });
