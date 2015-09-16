@@ -46,7 +46,7 @@
 	<div class="col-lg-3 col-md-3 col-sm-6">
 		<div class="holiday-special-box">
 			<div class="holiday-special-nested-icon-4">
-				<i class="fa fa-lock fa-3x"></i>
+				<i class="fa fa-star fa-3x"></i>
 			</div>
 			<div class="holiday-special-nested-box-4">Tatil Yap <br> Farkı</div>
 				<div class="holiday-special-box-content">
