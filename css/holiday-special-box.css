@@ -1,10 +1,4 @@
 
-#holiday-special{
-	background-color:#d3d6db;
-	height: 450px;
-	padding: 35px 35px;
-}
-
 .holiday-special-box{
 	-webkit-box-shadow: 13px 7px 10px -3px rgba(161,161,161,1);
     -moz-box-shadow: 13px 7px 10px -3px rgba(161,161,161,1);
@@ -79,9 +73,7 @@
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-	#holiday-special{
-		height: 410px;
-	}
+
 }
 
 /* Landscape tablets and medium desktops */
@@ -89,21 +81,18 @@
 	.holiday-special-box{
 		height: 390px;
 	}
-	#holiday-special{
-		height: 480px;
-	}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-	#holiday-special{
-		height: 720px;
+	.holiday-special-box{
+		height: 250px;
 	}
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+	
 }
 
 /* Portrait phones and smaller */
