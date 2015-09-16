@@ -68,13 +68,14 @@
 .with-nav-tabs.panel-primary .nav-tabs > li.active > a,
 .with-nav-tabs.panel-primary .nav-tabs > li.active > a:hover,
 .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
-	color: #428bca;
-	background-color: #fff;
-	border-color: #428bca;
+	color: #fff;
+	background-color: #2e618d;
+	border:2px solid transparent;
 	border-bottom-color: transparent;
+	
 }
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu {
-    background-color: #428bca;
+    background-color: #2e618d;
     border-color: #3071a9;
 }
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a {
@@ -82,7 +83,7 @@
 }
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:hover,
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > li > a:focus {
-    background-color: #3071a9;
+    background-color: #325b84;
 }
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a,
 .with-nav-tabs.panel-primary .nav-tabs > li.dropdown .dropdown-menu > .active > a:hover,
@@ -237,7 +238,7 @@
 	border-bottom-color: transparent;
 }
 .with-nav-tabs.panel-danger .nav-tabs > li.dropdown .dropdown-menu {
-    background-color: #f2dede; /* bg color */
+    background-color: #325b84; /* bg color */
     border-color: #ebccd1; /* border color */
 }
 .with-nav-tabs.panel-danger .nav-tabs > li.dropdown .dropdown-menu > li > a {
