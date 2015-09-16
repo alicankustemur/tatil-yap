@@ -1,7 +1,7 @@
 B2B ve B2C olarak oluşturulacak bir  tatil rezervasyon web projesidir.
 
 Gelişim aşamasında  , en son hali görüntülemek için ;
-http://alicankustemur.github.com/tatil-yap
+http://alicankustemur.github.io/tatil-yap
 
 Bu proje geliştirilirken :
 
