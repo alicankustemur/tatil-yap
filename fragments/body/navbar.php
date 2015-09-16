@@ -14,12 +14,13 @@
 		
 		<div class="collapse navbar-collapse" id="navbar_menu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#" class="active">Oteller</a></li>
+				<?php require_once("navbar/mega-dropdown-menu.php"); ?>
 
 				<li><a href="#">Turlar</a></li>
 				<li><a href="#">Uçak Bileti</a></li>
 				<li><a href="#">Kampanyalar</a></li>
 				<li><a href="#" id="login_btn" role="button" data-toggle="modal" data-target="#login-modal">Giriş Yap</a></li>
+				<!--
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 
@@ -32,8 +33,8 @@
 						<li><a href="#">5</a></li>
 					</ul>
 				</li>
-
-				<?php require_once("navbar/mega-dropdown-menu.php"); ?>
+				-->
+				
 				
 			</ul>
 		</div>

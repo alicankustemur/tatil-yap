@@ -1,25 +1,25 @@
 <li class="dropdown dropdown-slider mega-dropdown ">
-	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <span class="caret"></span></a>				
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Oteller <span class="caret"></span></a>				
 	<ul class="dropdown-menu dropdown-menu-slider mega-dropdown-menu mega-dropdown-menu-body">
 		<li class="col-sm-3">
 			<ul>
-				<li class="dropdown-header">Men Collection</li>                            
+				<li class="dropdown-header">Random Otel</li>                            
                 <div id="menCollection" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="item active">
                         <a href="#"><img src="http://placehold.it/254x150/ff3546/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 1"></a>
-                        <h4><small>Summer dress floral prints</small></h4>                                        
-                        <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>       
+                        <h4><small>uygun fiyatları kaçırmayın , yerinizi hemen ayırın.</small></h4>                                        
+                        <button class="btn btn-primary" type="button">49,99 &#x20BA</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Oteli Değerlendir</button>       
                     </div><!-- End Item -->
                     <div class="item">
                         <a href="#"><img src="http://placehold.it/254x150/3498db/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 2"></a>
-                        <h4><small>Gold sandals with shiny touch</small></h4>                                        
-                        <button class="btn btn-primary" type="button">9,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>        
+                        <h4><small>uygun fiyatları kaçırmayın , yerinizi hemen ayırın.</small></h4>                                        
+                        <button class="btn btn-primary" type="button">9,99 &#x20BA</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Oteli Değerlendir</button>        
                     </div><!-- End Item -->
                     <div class="item">
                         <a href="#"><img src="http://placehold.it/254x150/2ecc71/f5f5f5/&text=New+Collection" class="img-responsive" alt="product 3"></a>
-                        <h4><small>Denin jacket stamped</small></h4>                                        
-                        <button class="btn btn-primary" type="button">49,99 €</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Add to Wishlist</button>      
+                        <h4><small>uygun fiyatları kaçırmayın , yerinizi hemen ayırın.</small></h4>                                        
+                        <button class="btn btn-primary" type="button">49,99 &#x20BA</button> <button href="#" class="btn btn-default" type="button"><span class="glyphicon glyphicon-heart"></span> Oteli Değerlendir</button>      
                     </div><!-- End Item -->                                
                   </div><!-- End Carousel Inner -->
                   <!-- Controls -->
@@ -33,46 +33,39 @@
                   </a>
                 </div><!-- /.carousel -->
                 <li class="divider"></li>
-                <li><a href="#">View all Collection <span class="glyphicon glyphicon-chevron-right mega-dropdown-glyphicon-chevron-right pull-right"></span></a></li>
+                <li><a href="#">Tüm otel listesini görmek için <span class="glyphicon glyphicon-chevron-right mega-dropdown-glyphicon-chevron-right pull-right"></span></a></li>
 			</ul>
 		</li>
 		<li class="col-sm-3">
 			<ul>
-				<li class="dropdown-header">Features</li>
-				<li><a href="#">Auto Carousel</a></li>
-                <li><a href="#">Carousel Control</a></li>
-                <li><a href="#">Left & Right Navigation</a></li>
-				<li><a href="#">Four Columns Grid</a></li>
+				<li class="dropdown-header">Yurtiçi Oteller</li>
+				<li><a href="#">Kızkalesi Otelleri</a></li>
+                <li><a href="#">Antalya Otelleri</a></li>
+                <li><a href="#">Bodrum Otelleri</a></li>
+				<li><a href="#">Kemer Otelleri</a></li>
 				<li class="divider"></li>
-				<li class="dropdown-header">Fonts</li>
-                <li><a href="#">Glyphicon</a></li>
-				<li><a href="#">Google Fonts</a></li>
+				<li class="dropdown-header">Otel Kategorileri</li>
+                <li><a href="#">Balayı Otelleri</a></li>
+				<li><a href="#">Denize Sıfır Oteller</a></li>
 			</ul>
 		</li>
 		<li class="col-sm-3">
 			<ul>
-				<li class="dropdown-header">Plus</li>
-				<li><a href="#">Navbar Inverse</a></li>
-				<li><a href="#">Pull Right Elements</a></li>
-				<li><a href="#">Coloured Headers</a></li>                            
-				<li><a href="#">Primary Buttons & Default</a></li>							
+				<li class="dropdown-header">Şehir Otelleri</li>
+				<li><a href="#">Mersin Otelleri</a></li>
+				<li><a href="#">Adana Otelleris</a></li>
+				<li><a href="#">Muğla Otelleri</a></li>                            
+				<li><a href="#">İzmir Otelleri</a></li>							
 			</ul>
 		</li>
 		<li class="col-sm-3">
 			<ul >
-				<li class="dropdown-header">Much more</li>
-                <li><a href="#">Easy to Customize</a></li>
-				<li><a href="#">Calls to action</a></li>
-				<li><a href="#">Custom Fonts</a></li>
-				<li><a href="#">Slide down on Hover</a></li>                         
+				<li class="dropdown-header">Kıbrıs Otelleri</li>
+                <li><a href="#">Lefkoşa Otelleri</a></li>
+				<li><a href="#">Girne Otelleri</a></li>
+				<li><a href="#">GaziMağusa Otelleri</a></li>
+				<li><a href="#">Bafra Otelleri</a></li>                         
 			</ul>
 		</li>
 	</ul>				
 </li>
-
-<style>
-	ul li a:hover { 
-		background-color : #b2c1d1; 
-		border-radius: 1px;
-	}
-</style>

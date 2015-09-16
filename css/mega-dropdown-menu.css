@@ -17,16 +17,21 @@
 }
 .mega-dropdown-menu > li > ul > li > a {
   display: block;
-  color: #222;
-  padding: 3px 5px;
+  color: #909090;
+  padding: 3px 5px; 
+}
+.mega-dropdown-menu > li ul > li > a:hover{
+  background-color : #428BCA;
+  color: #fff; 
 }
 .mega-dropdown-menu > li ul > li > a:hover,
 .mega-dropdown-menu > li ul > li > a:focus {
   text-decoration: none;
+
 }
 .mega-dropdown-menu .dropdown-header {
   font-size: 18px;
-  color: #ff3546;
+  color: #036;
   padding: 5px 60px 5px 5px;
   line-height: 30px;
 }
