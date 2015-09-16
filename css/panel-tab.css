@@ -70,7 +70,7 @@
 .with-nav-tabs.panel-primary .nav-tabs > li.active > a:focus {
 	color: #fff;
 	background-color: #2e618d;
-	border:2px solid transparent;
+	border:0px solid transparent;
 	border-bottom-color: transparent;
 	
 }
