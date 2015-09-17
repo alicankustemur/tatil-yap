@@ -14,44 +14,62 @@ body{
 }
 
 
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .priceList{
+    bottom: 90px;
+  }
 
+  #sea_pic{
+    bottom: -120px;
+    left: 100px;
+  }
 
-@media screen and (min-width:1200px){
-
-    .priceList{
-    	bottom: 90px;
-
-    }
-    #sea_pic{
-      bottom: -100px;
-      left: 100px;
-    }
-    
 }
-@media screen and (max-width:1200px){
 
-    .priceList{
-    	bottom: 70px;
-    }
-    #sea_pic{
-      bottom: -100px;
-      left: 180px;
-    }
-}
-@media screen and (min-width: 770px) and (max-width:990px) {
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .priceList{
+    bottom: 90px;
+  }
 
-    .priceList{
-    	bottom: 10px;
-    }
-    
+  #sea_pic{
+    bottom: -120px;
+    left: 150px;
+  }
+
 }
-@media screen and (max-width: 770px){
-	.priceList{
-		bottom: -20px;
-	}
-   #sea_pic{
-      display: none;
-    }
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .priceList{
+    bottom: 10px;
+  }
+
+  #sea_pic{
+    bottom: -120px;
+    left: 270px;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .priceList{
+    bottom: -10px;
+  }
+
+  #sea_pic{
+    display: none;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  #sea_pic{
+    display: none;
+  }
 }
 
 
