@@ -17,6 +17,19 @@ $(document).ready(function(){
 			$(".priceList").css("bottom","10px");
 		});
 
+	}else if($(window).width() > 973 && $(window).width() <= 1179 ){
+		
+		$("#tab_hotel").click(function(){
+			$(".priceList").css("bottom","90px");
+		});
+
+		$("#tab_tour").click(function(){
+			$(".priceList").css("bottom","10px");
+		});
+
+		$("#tab_plane").click(function(){
+			$(".priceList").css("bottom","10px");
+		});
 	}
 
 	$(".priceListRow").click(function(){
